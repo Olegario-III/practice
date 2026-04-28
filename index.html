@@ -1,0 +1,34 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+</head>
+
+<body>
+    <h1 id="vessel"></h1>
+    <p id="vessel2"></p>
+
+    <script>
+        const vessel = document.getElementById('vessel');
+        const vessel2 = document.getElementById('vessel2');
+        vessel.textContent = "Hello, World!";
+        for (let i = 1; i <= 100; i++) {
+            if (i % 3 === 0 && i % 5 === 0) {
+                vessel2.innerHTML += `${i} FizzBuzz <br>`;
+            } else if (i % 5 === 0) {
+                vessel2.innerHTML += `${i} Fizz <br>`;
+            } else if (i % 3 === 0) {
+                vessel2.innerHTML += `${i} Buzz <br>`;
+            } else {
+                vessel2.innerHTML += `${i} <br>`
+            }
+        }
+
+
+    </script>
+</body>
+
+</html>

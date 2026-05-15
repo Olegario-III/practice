@@ -27,7 +27,3 @@ A simple interactive web page that displays "Hello, World!" and prints the class
 
 ## Files
 - `index.html` – Complete single-file implementation
-
----
-
-Made as a simple demonstration of basic JavaScript and DOM interaction.
